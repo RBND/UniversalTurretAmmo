@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<blocks>
+<!-- SMG Auto Turret-->
+  <append xpath="/blocks/block[@name='autoTurret']/property[@name='AmmoItem']/@value">,ammo9mmBulletAP,ammo9mmBulletHP,ammo44MagnumBulletAP,ammo44MagnumBulletBall,ammo44MagnumBulletHP,ammoJunkTurretRegular</append>
+<!-- Shotgun Auto Turret-->
+  <append xpath="/blocks/block[@name='shotgunTurret']/property[@name='AmmoItem']/@value">,ammoJunkTurretShell,ammoShotgunBreachingSlug,ammoShotgunSlug,</append>
+</blocks>
