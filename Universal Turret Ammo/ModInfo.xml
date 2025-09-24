@@ -2,7 +2,7 @@
 <xml>
 	<Name value="UniversalTurretAmmo" />
 	<DisplayName value="Universal Turret Ammo" />
-	<Description value="Allows the SMG Auto Turret to use all Pistol Ammo & Robotic Turret Ammo. Allows the Shotgun Auto Turret to use all Shotgun Shell ammo & Robotic Turret Shells." />
+	<Description value="Allows the SMG Auto Turret to use all Pistol Ammo and Robotic Turret Ammo. Allows the Shotgun Auto Turret to use all Shotgun Shell ammo and Robotic Turret Shells." />
 	<Author value="RobotsNeverDie" />
 	<Version value="1.0" />
 	<Website value="https://robotsneverdie.co />
