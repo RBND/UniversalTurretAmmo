@@ -1,4 +1,4 @@
-# Universal Turret Ammo (v2.0)
+# Universal Turret Ammo (v2.1)
 
 **This mod allows your automated base defense turrets in 7 Days to Die to use additional compatible ammunition types instead of being restricted to base ammunition.**
 

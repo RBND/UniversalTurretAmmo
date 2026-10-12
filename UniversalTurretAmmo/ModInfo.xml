@@ -4,6 +4,6 @@
 	<DisplayName value="Universal Turret Ammo" />
 	<Description value="Allows Auto Turrets, Shotgun Turrets, and M60 Turrets to use additional compatible ammunition types." />
 	<Author value="RobotsNeverDie" />
-	<Version value="2.0" />
+	<Version value="2.1" />
 	<Website value="https://github.com/RBND/UniversalTurretAmmo" />
 </xml>
