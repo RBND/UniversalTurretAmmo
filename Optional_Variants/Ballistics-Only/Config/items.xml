@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items>
+  <!-- ========================================================================= -->
+  <!-- .44 MAGNUM AMMO: Enable damage, block damage, penetration, and AP stats   -->
+  <!-- to scale dynamically when loaded into turrets (as well as handheld guns)  -->
+  <!-- ========================================================================= -->
+
+  <!-- .44 Magnum Ball: 70 Entity Damage, 12 Block Damage -->
+  <removeattribute xpath="/items/item[@name='ammo44MagnumBulletBall']/effect_group/passive_effect[@name='EntityDamage' and @operation='base_set']/@tags" />
+  <removeattribute xpath="/items/item[@name='ammo44MagnumBulletBall']/effect_group/passive_effect[@name='BlockDamage' and @operation='base_set']/@tags" />
+
+  <!-- .44 Magnum HP: 77 Entity Damage, 13 Block Damage -->
+  <removeattribute xpath="/items/item[@name='ammo44MagnumBulletHP']/effect_group/passive_effect[@name='EntityDamage' and @operation='base_set']/@tags" />
+  <removeattribute xpath="/items/item[@name='ammo44MagnumBulletHP']/effect_group/passive_effect[@name='BlockDamage' and @operation='base_set']/@tags" />
+
+  <!-- .44 Magnum AP: 84 Entity Damage, 14 Block Damage, -50% Target Armor, 1 Target Penetration -->
+  <removeattribute xpath="/items/item[@name='ammo44MagnumBulletAP']/effect_group/passive_effect[@name='EntityDamage' and @operation='base_set']/@tags" />
+  <removeattribute xpath="/items/item[@name='ammo44MagnumBulletAP']/effect_group/passive_effect[@name='BlockDamage' and @operation='base_set']/@tags" />
+  <removeattribute xpath="/items/item[@name='ammo44MagnumBulletAP']/effect_group/passive_effect[@name='TargetArmor']/@tags" />
+  <removeattribute xpath="/items/item[@name='ammo44MagnumBulletAP']/effect_group/passive_effect[@name='EntityPenetrationCount' and @operation='base_set']/@tags" />
+
+  <!-- ========================================================================= -->
+  <!-- 7.62mm AMMO: Enable damage and armor penetration stats to scale in turrets -->
+  <!-- ========================================================================= -->
+
+  <!-- 7.62mm Ball: 47 Entity Damage, 8 Block Damage -->
+  <removeattribute xpath="/items/item[@name='ammo762mmBulletBall']/effect_group/passive_effect[@name='EntityDamage' and @operation='base_set']/@tags" />
+  <removeattribute xpath="/items/item[@name='ammo762mmBulletBall']/effect_group/passive_effect[@name='BlockDamage' and @operation='base_set']/@tags" />
+
+  <!-- 7.62mm HP: 52 Entity Damage, 9 Block Damage -->
+  <removeattribute xpath="/items/item[@name='ammo762mmBulletHP']/effect_group/passive_effect[@name='EntityDamage' and @operation='base_set']/@tags" />
+  <removeattribute xpath="/items/item[@name='ammo762mmBulletHP']/effect_group/passive_effect[@name='BlockDamage' and @operation='base_set']/@tags" />
+
+  <!-- 7.62mm AP: 57 Entity Damage, 10 Block Damage, -50% Target Armor -->
+  <removeattribute xpath="/items/item[@name='ammo762mmBulletAP']/effect_group/passive_effect[@name='EntityDamage' and @operation='base_set']/@tags" />
+  <removeattribute xpath="/items/item[@name='ammo762mmBulletAP']/effect_group/passive_effect[@name='BlockDamage' and @operation='base_set']/@tags" />
+  <removeattribute xpath="/items/item[@name='ammo762mmBulletAP']/effect_group/passive_effect[@name='TargetArmor']/@tags" />
+</items>

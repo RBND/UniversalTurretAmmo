@@ -9,6 +9,6 @@ Excludes all Robotic Turret ammunition, keeping automated turrets strictly to tr
 - **M60 Auto Turret**: Uses 7.62mm (Ball, AP, HP).
 
 ### How to Apply a Variant
-1. Copy `blocks.xml` from `Optional_Variants/Ballistics-Only/Config/`.
-2. Paste it into `UniversalTurretAmmo/Config/`, replacing the existing `blocks.xml`.
+1. Copy the `Config/` folder from `Optional_Variants/Ballistics-Only/`.
+2. Paste it into `UniversalTurretAmmo/`, replacing the files in `UniversalTurretAmmo/Config/`.
 3. Restart your game or server.
