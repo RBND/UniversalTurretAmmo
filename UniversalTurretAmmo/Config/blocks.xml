@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <blocks>
-<!-- SMG Auto Turret-->
-  <append xpath="/blocks/block[@name='autoTurret']/property[@name='AmmoItem']/@value">,ammo9mmBulletAP,ammo9mmBulletHP,ammo44MagnumBulletAP,ammo44MagnumBulletBall,ammo44MagnumBulletHP,ammoJunkTurretRegular</append>
-<!-- Shotgun Auto Turret-->
-  <append xpath="/blocks/block[@name='shotgunTurret']/property[@name='AmmoItem']/@value">,ammoJunkTurretShell,ammoShotgunBreachingSlug,ammoShotgunSlug,</append>
+  <!-- SMG Auto Turret: 9mm (Ball, AP, HP) + .44 Magnum (Ball, AP, HP) + Robotic Turret Ammo (Regular & AP) -->
+  <set xpath="/blocks/block[@name='autoTurret']/property[@name='AmmoItem']/@value">ammo9mmBulletBall+tags(ammo9mm)+tags(ammo44Mag)+ammoJunkTurretRegular+ammoJunkTurretAP</set>
+
+  <!-- Shotgun Auto Turret: Shotgun Shells, AP Slugs, Breaching Slugs + Robotic Turret Shells -->
+  <set xpath="/blocks/block[@name='shotgunTurret']/property[@name='AmmoItem']/@value">ammoShotgunShell+tags(ammoShells)+ammoJunkTurretShell</set>
+
+  <!-- M60 Auto Turret: 7.62mm (Ball, AP, HP) + Robotic Turret Ammo (Regular & AP) -->
+  <set xpath="/blocks/block[@name='m60Turret']/property[@name='AmmoItem']/@value">ammo762mmBulletBall+tags(ammo762mm)+ammoJunkTurretRegular+ammoJunkTurretAP</set>
 </blocks>

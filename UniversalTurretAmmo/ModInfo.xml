@@ -2,8 +2,8 @@
 <xml>
 	<Name value="UniversalTurretAmmo" />
 	<DisplayName value="Universal Turret Ammo" />
-	<Description value="Allows the SMG Auto Turret to use all Pistol Ammo and Robotic Turret Ammo. Allows the Shotgun Auto Turret to use all Shotgun Shell ammo and Robotic Turret Shells." />
+	<Description value="Allows Auto Turrets, Shotgun Turrets, and M60 Turrets to use additional compatible ammunition types." />
 	<Author value="RobotsNeverDie" />
-	<Version value="1.0" />
-	<Website value="https://robotsneverdie.co" />
+	<Version value="2.0" />
+	<Website value="https://github.com/RBND/UniversalTurretAmmo" />
 </xml>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<blocks>
+  <!-- SMG Auto Turret: 9mm (Ball, AP, HP) + .44 Magnum (Ball, AP, HP) [No Robotic Ammo] -->
+  <set xpath="/blocks/block[@name='autoTurret']/property[@name='AmmoItem']/@value">ammo9mmBulletBall+tags(ammo9mm)+tags(ammo44Mag)</set>
+
+  <!-- Shotgun Auto Turret: Shotgun Shells, AP Slugs, Breaching Slugs [Default Vanilla] -->
+  <set xpath="/blocks/block[@name='shotgunTurret']/property[@name='AmmoItem']/@value">ammoShotgunShell+tags(ammoShells)</set>
+
+  <!-- M60 Auto Turret: 7.62mm (Ball, AP, HP) [Default Vanilla] -->
+  <set xpath="/blocks/block[@name='m60Turret']/property[@name='AmmoItem']/@value">ammo762mmBulletBall+tags(ammo762mm)</set>
+</blocks>
