@@ -8,6 +8,7 @@
 - Added [fomod/info.xml](file:///c:/Users/Myke/Documents/GitHub/UniversalTurretAmmo/fomod/info.xml) and [fomod/ModuleConfig.xml](file:///c:/Users/Myke/Documents/GitHub/UniversalTurretAmmo/fomod/ModuleConfig.xml) (fixed `<files>` before `<typeDescriptor>` XSD element ordering for `ModConfig5.0.xsd`) so Vortex presents a variant selector (**Standard** vs **Ballistics-Only**) during installation and deploys `ModInfo.xml`, `README.md`, and the selected `Config/` folder directly to the mod root.
 - Updated [UniversalTurretAmmo/ModInfo.xml](file:///c:/Users/Myke/Documents/GitHub/UniversalTurretAmmo/UniversalTurretAmmo/ModInfo.xml) and [README.md](file:///c:/Users/Myke/Documents/GitHub/UniversalTurretAmmo/README.md) to `2.2` and rebuilt [UniversalTurretAmmo.zip](file:///c:/Users/Myke/Documents/GitHub/UniversalTurretAmmo/UniversalTurretAmmo.zip).
 - Verified all XML files parse cleanly.
+- Published GitHub release **V2.2.1** (`https://github.com/RBND/UniversalTurretAmmo/releases/tag/V2.2.1`) with `UniversalTurretAmmo.zip` attached.
 
 ## Next Steps
 - Drag-and-drop [UniversalTurretAmmo.zip](file:///c:/Users/Myke/Documents/GitHub/UniversalTurretAmmo/UniversalTurretAmmo.zip) into Vortex (and remove the manual `UniversalTurretAmmo` folder from `%APPDATA%\7DaysToDie\Mods` if still present) to test the FOMOD prompt end-to-end.
