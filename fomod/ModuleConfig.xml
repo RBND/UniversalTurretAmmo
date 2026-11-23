@@ -12,21 +12,21 @@
           <plugins order="Explicit">
             <plugin name="Standard (All Compatible + Robotic Ammo)">
               <description>Recommended. Allows SMG turrets to use 9mm, .44 Magnum, and Robotic Turret ammo; Shotgun turrets to use Shells, Slugs, and Robotic Turret Shells; and M60 turrets to use 7.62mm and Robotic Turret ammo.</description>
-              <typeDescriptor>
-                <type name="Recommended" />
-              </typeDescriptor>
               <files>
                 <folder source="UniversalTurretAmmo\Config" destination="Config" priority="0" />
               </files>
+              <typeDescriptor>
+                <type name="Recommended" />
+              </typeDescriptor>
             </plugin>
             <plugin name="Ballistics-Only (No Robotic Ammo)">
               <description>Excludes all Robotic Turret ammunition. Keeps automated turrets strictly to traditional firearm ammunition (9mm and .44 Magnum in SMG turrets; vanilla ammo in Shotgun and M60 turrets).</description>
-              <typeDescriptor>
-                <type name="Optional" />
-              </typeDescriptor>
               <files>
                 <folder source="Optional_Variants\Ballistics-Only\Config" destination="Config" priority="0" />
               </files>
+              <typeDescriptor>
+                <type name="Optional" />
+              </typeDescriptor>
             </plugin>
           </plugins>
         </group>
