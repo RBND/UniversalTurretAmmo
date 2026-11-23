@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://qconsulting.ca/fo3/ModConfig5.0.xsd">
+  <moduleName>Universal Turret Ammo</moduleName>
+  <requiredInstallFiles>
+    <file source="UniversalTurretAmmo\ModInfo.xml" destination="ModInfo.xml" />
+    <file source="README.md" destination="README.md" />
+  </requiredInstallFiles>
+  <installSteps order="Explicit">
+    <installStep name="Select Variant">
+      <optionalFileGroups order="Explicit">
+        <group name="Ammunition Compatibility" type="SelectExactlyOne">
+          <plugins order="Explicit">
+            <plugin name="Standard (All Compatible + Robotic Ammo)">
+              <description>Recommended. Allows SMG turrets to use 9mm, .44 Magnum, and Robotic Turret ammo; Shotgun turrets to use Shells, Slugs, and Robotic Turret Shells; and M60 turrets to use 7.62mm and Robotic Turret ammo.</description>
+              <typeDescriptor>
+                <type name="Recommended" />
+              </typeDescriptor>
+              <files>
+                <folder source="UniversalTurretAmmo\Config" destination="Config" priority="0" />
+              </files>
+            </plugin>
+            <plugin name="Ballistics-Only (No Robotic Ammo)">
+              <description>Excludes all Robotic Turret ammunition. Keeps automated turrets strictly to traditional firearm ammunition (9mm and .44 Magnum in SMG turrets; vanilla ammo in Shotgun and M60 turrets).</description>
+              <typeDescriptor>
+                <type name="Optional" />
+              </typeDescriptor>
+              <files>
+                <folder source="Optional_Variants\Ballistics-Only\Config" destination="Config" priority="0" />
+              </files>
+            </plugin>
+          </plugins>
+        </group>
+      </optionalFileGroups>
+    </installStep>
+  </installSteps>
+</config>

@@ -1,0 +1,7 @@
+<fomod>
+  <Name>Universal Turret Ammo</Name>
+  <Author>RobotsNeverDie</Author>
+  <Version>2.2</Version>
+  <Website>https://github.com/RBND/UniversalTurretAmmo</Website>
+  <Description>Allows SMG, Shotgun, and M60 Auto Turrets to use additional compatible ammunition types with dynamic per-shot stat switching.</Description>
+</fomod>

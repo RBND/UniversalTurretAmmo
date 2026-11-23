@@ -1,4 +1,4 @@
-# Universal Turret Ammo (v2.1)
+# Universal Turret Ammo (v2.2)
 
 **This mod allows your automated base defense turrets in 7 Days to Die to use additional compatible ammunition types instead of being restricted to base ammunition.**
 
@@ -59,7 +59,12 @@ To use an optional variant:
 
 ### Installation
 
-#### Single Player / Local Game
+#### Vortex Mod Manager (Recommended)
+1. Download `UniversalTurretAmmo.zip` (or use **Mod Manager Download** on Nexus Mods).
+2. Install in Vortex — a FOMOD installer prompt will let you choose between **Standard** and **Ballistics-Only**.
+3. Deploy mods in Vortex. You can right-click the mod and choose **Reinstall** anytime to switch variants.
+
+#### Single Player / Local Game (Manual)
 1. Download or clone this repository.
 2. Place the `UniversalTurretAmmo` folder into your game's **Mods** directory:
    - Steam default path:  
